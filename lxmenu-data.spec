@@ -7,6 +7,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		http://lxde.sourceforge.net/
 BuildRequires:	intltool
+BuildRequires:	gettext-devel
 BuildArch:	noarch
 
 %description
@@ -22,10 +23,10 @@ modifications were made.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_datadir}/desktop-directories/lxde-*.directory
