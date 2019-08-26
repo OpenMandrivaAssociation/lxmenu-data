@@ -7,6 +7,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		http://lxde.sourceforge.net/
 BuildRequires:	intltool
+BuildRequires:	glib-gettextize
 BuildRequires:	gettext-devel
 BuildArch:	noarch
 
