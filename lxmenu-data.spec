@@ -8,8 +8,8 @@
 
 Summary:	Menu data files for LXDE
 Name:		lxmenu-data
-Version:	0.1.5
-Release:	5
+Version:	0.1.6
+Release:	1
 #Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
 Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 License:	GPLv2+
