@@ -14,7 +14,7 @@ Release:	1
 Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Url:		http://lxde.sourceforge.net/
+Url:		https://lxde.sourceforge.net/
 BuildRequires:	intltool
 BuildRequires:	glib-gettextize
 BuildRequires:	gettext-devel
