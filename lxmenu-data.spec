@@ -1,15 +1,15 @@
 # git snapshot
 %global snapshot 1
 %if 0%{?snapshot}
-	%global commit		6ffc8b388792fc89d40850bb2b6d28e16eb7f1a3
-	%global commitdate	20230801
+	%global commit		cacc20b2fe6462dd6b8458f0858a8c80f6b89421
+	%global commitdate	20240729
 	%global shortcommit	%(c=%{commit}; echo ${c:0:7})
 %endif
 
 Summary:	Menu data files for LXDE
 Name:		lxmenu-data
 Version:	0.1.6
-Release:	1
+Release:	2
 #Source0:	http://dfn.dl.sourceforge.net/sourceforge/lxde/%{name}-%{version}.tar.gz
 Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 License:	GPLv2+
