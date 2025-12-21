@@ -15,6 +15,11 @@ Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snaps
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	glib-gettextize
 BuildRequires:	gettext-devel
